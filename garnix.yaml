@@ -1,0 +1,5 @@
+---
+# See: https://garnix.io/docs/yaml_config
+builds:
+  include:
+    - 'packages.aarch64-linux.*'
