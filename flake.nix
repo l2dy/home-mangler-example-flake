@@ -12,7 +12,7 @@
 
   outputs =
     { self, systems, nixpkgs, nixpkgs-unstable, home-mangler, ... }@inputs:
-    # Imports packages from default.nix
+    # Import packages from default.nix as output
     (import ./. inputs) // {
       home-mangler = {
         your-hostname = let
